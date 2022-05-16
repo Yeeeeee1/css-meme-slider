@@ -1,0 +1,38 @@
+.slider-wrapper {
+  margin: 10px;
+}
+
+.img-container {
+  margin: 10px;
+}
+.img-container img {
+  width: 250px;
+  height: 250px;
+}
+.pagination {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+.pagination-btn {
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background: blue;
+}
+
+.current {
+  background: white;
+  border: 5px solid blue;
+  transition: all 0.5s;
+}
+
+.pagination-btn-wrapper {
+  padding: 5px;
+  cursor: pointer;
+}
